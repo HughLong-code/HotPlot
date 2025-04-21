@@ -10,7 +10,7 @@ const mapBounds = L.latLngBounds([L.latLng( 23 , -91), L.latLng( 35,-72)]); //us
 const minZoom = 6;
 const maxZoom = 18; 
 const zoomStart = 6;   
-const apiUrl = 'http://localhost:4242'; //adjust   
+const apiUrl = 'https://www.hotplot-server.xyz'; //adjust   
 const defCenter = [28.5,-81.7]; //about the cente rof the us, starting value if geoloc is declined
 
 const locationIcon = new layerCarry(getLocationIcon([40, 40])); //consistent style across iterations
