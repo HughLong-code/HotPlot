@@ -16,7 +16,7 @@ export function initialize_map (id = null, tileUrl = null, attribution = null , 
     var map = null;
 
     if(id != null){
-        map = L.map(id , {zoomDelta : 1, minZoom : minZoom , maxBounds : maxBounds, maxZoom: maxZoom,
+        map = L.map(id , {zoomDelta : 1, minZoom : minZoom , maxBounds : maxBounds, maxZoom: maxZoom, bounceAtZoomLimits: false,
             zoom : zoom , center: center , style : { height: "100vh", width: "100vw" } , zoomControl: false});
     }
 
