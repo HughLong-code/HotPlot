@@ -108,7 +108,7 @@ function toTime(tm){
 
     if(isNaN(tmInt)) return tm;
 
-    var hours = Math.floor(tmInt / 60);
+    var hours = Math.floor(tmInt / 60) - 5;
     var minutes = tmInt % 60;
 
     const amOrPm = (hours < 12) ? "AM" : "PM";
