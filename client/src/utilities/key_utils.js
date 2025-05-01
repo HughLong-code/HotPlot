@@ -107,7 +107,6 @@ function toTime(tm){
     var tmInt = parseInt(tm);
 
     if(isNaN(tmInt)) return tm;
-
     var hours = Math.floor(tmInt / 60) - 5;
     var minutes = tmInt % 60;
 
